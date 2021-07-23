@@ -1,0 +1,41 @@
+.go-top {
+    position: fixed;
+    cursor: pointer;
+    bottom: -100px;
+    right: 20px;
+    color: #ffffff;
+    background-color: #221638;
+    z-index: 4;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: .9s;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); 
+}
+.go-top i {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.go-top.active {
+    opacity: 1;
+    visibility: visible;
+    bottom: 20px; 
+}
+.go-top:hover {
+    background-color: #ff5d22;
+    color: #ffffff;
+    transition: 0.5s;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+}

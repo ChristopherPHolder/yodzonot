@@ -1,0 +1,42 @@
+/*
+Flaticon icon font: Flaticon
+*/
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/Flaticon/Flaticon.eot");
+	src: url("../fonts/Flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/Flaticon/Flaticon.woff2") format("woff2"),
+	url("../fonts/Flaticon/Flaticon.woff") format("woff"),
+	url("../fonts/Flaticon/Flaticon.ttf") format("truetype"),
+	url("../fonts/Flaticon/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../fonts/Flaticon/Flaticon.svg#Flaticon") format("svg");
+		font-display: swap;
+	}
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+	font-display: swap;
+}
+.flaticon-right:before { content: "\f101"; } /* nav banner-index aboutus */
+.flaticon-calendar:before { content: "\f108"; } /* blog card */
+.flaticon-rocket:before { content: "\f109"; } /* solutions */
+.flaticon-laptop:before { content: "\f10a"; } /* ,, */
+.flaticon-money:before { content: "\f10b"; } /* ,, */
+.flaticon-tick:before { content: "\f10f"; } /* services-index contactform */
+.flaticon-factory:before { content: "\f112"; } /* service details */
+.flaticon-hospital:before { content: "\f113"; } /* service details */
+.flaticon-tracking:before { content: "\f114"; } /* service details */
+.flaticon-investment:before { content: "\f115"; } /* service details */
+.flaticon-house:before { content: "\f116"; } /* ,,, */
+.flaticon-order:before { content: "\f117"; } /* ,,, */
+.flaticon-web:before { content: "\f127"; } /* projects-index */
+.flaticon-up:before { content: "\f10e"; } /* GoTop */
