@@ -1,0 +1,35 @@
+.main-banner-image {
+    text-align: center;
+}
+  
+.it-services-banner {
+    position: relative;
+    z-index: 1;
+    background-color: whitesmoke;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+    padding-bottom: 110px; 
+}
+.it-services-banner .main-banner-content {
+      margin-top: 0; }
+
+.location-section  {
+    padding: 30px;
+}
+.location-section-title {
+    padding: 25px;
+    text-align: center;
+}
+.location-section-image {
+    position: relative;
+    text-align: center;
+}
+.location-section-image-text-centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
