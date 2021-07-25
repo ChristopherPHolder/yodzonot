@@ -11,15 +11,12 @@ const Rooms = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
-                        <div className="main-banner-image">
-                            <BedroomSlider />
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12">
                         <div className="main-banner-content">
                             <h1> Our Bedrooms </h1>
-
-                            <p> There are five bedroom located inside the house, each one with its own bathroom </p>
+                            <p> 
+                                The house has five rooms, each with several posible sleeping arangements.
+                                Each bedroom has its own bathroom and its unique style.
+                            </p>
                             <ul>
                                 <li> The White Room </li>
                                 <li> The Grey Room </li>
@@ -36,8 +33,11 @@ const Rooms = () => {
                             </div>
                         </div>
                     </div>
-
-                    
+                    <div className="col-lg-6 col-md-12">
+                        <div className="main-banner-image">
+                            <BedroomSlider />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

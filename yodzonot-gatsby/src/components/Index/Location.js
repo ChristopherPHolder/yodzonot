@@ -12,13 +12,6 @@ const Location = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
-                        <div className="main-banner-image">
-                            
-                            <LocationSlider />
-
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12">
                         <div className="main-banner-content">
                             <h1> Acommodations </h1>
                             <p>
@@ -39,8 +32,11 @@ const Location = () => {
                             </div>
                         </div>
                     </div>
-
-                    
+                    <div className="col-lg-6 col-md-12">
+                        <div className="main-banner-image">
+                            <LocationSlider />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
